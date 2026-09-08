@@ -1,0 +1,9 @@
+data/online_retail.xlsx
+data/online_retail_raw.csv
+output/silver_valid_transactions/
+output/quarantined_records/
+*.crc
+_SUCCESS
+__pycache__/
+*.pyc
+.spark-warehouse/

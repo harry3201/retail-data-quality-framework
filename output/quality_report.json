@@ -1,0 +1,19 @@
+{
+  "run_type": "batch",
+  "source_file": "data/online_retail_raw.csv",
+  "total_records": 541909,
+  "valid_records": 534129,
+  "quarantined_records": 7780,
+  "quarantine_rate_pct": 1.436,
+  "hard_rule_failures": {
+    "fail_non_positive_price": 2517,
+    "fail_missing_identifiers": 0,
+    "fail_invalid_date": 0,
+    "fail_duplicate_row": 5268
+  },
+  "soft_rule_flags": {
+    "flag_missing_customer_id": 135080,
+    "flag_non_positive_quantity": 10624,
+    "flag_non_product_stockcode": 2849
+  }
+}
